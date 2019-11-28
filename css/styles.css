@@ -1,0 +1,116 @@
+/**    Element Selectors     **/
+body {
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: 'Karla', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+  color: hsl(179, 62%, 43%);
+}
+
+/**     Outer Container Styles      **/
+
+.container {
+  width: 50%;
+  margin: 50px auto;
+  box-shadow: 0 0 3px 3px #e2e3e1;
+  border-radius: 5px;
+}
+
+/**     Top Section Styles      **/
+
+.top-section {
+  display: inline-block;
+  padding: 5%;
+  width: 90%;
+
+}
+
+.top-section h3{
+ color: hsl(71, 73%, 54%);
+}
+
+.top-section p {
+    color: lightgrey;
+}
+
+/**     Bottom Section Styles      **/
+
+.bottom-section {
+  background-color: hsl(179, 62%, 43%);
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  white-space: nowrap;
+  border-bottom-left-radius: 5px;
+}
+
+.pricing-section {
+  display: inline-block;
+  padding: 3% 5%;
+  width: 40%;
+  vertical-align: top;
+  white-space: normal;
+}
+
+.price-tag {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 0.5rem;
+}
+
+.unemphasize {
+    color: lightgrey;
+}
+
+.btn-signup {
+    background-color: hsl(71, 73%, 54%);
+    display: block;
+    padding: 5% 15%;
+    margin-top: 2rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.feature-section {
+  background-color: hsl(179, 62%, 46%);
+  display: inline-block;
+  padding: 4% 4.7%;
+  width: 40%;
+  vertical-align: top;
+  line-height: 0.7rem;
+  border-bottom-right-radius: 5px;
+  white-space: normal;
+}
+
+.feature-section h3 {
+  padding-bottom: 1rem;
+}
+.feature-section p{
+  font-size: 0.8rem;
+}
+
+/**     Footer Section styles   **/
+.attribution {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+/**     Media Queries     **/
+@media only screen and (max-width: 720px){
+  .pricing-section {
+    display: block;
+    width: 90%;
+  }
+  .feature-section {
+    display: block;
+    width: 90%;
+  }
+}
