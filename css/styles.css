@@ -79,6 +79,10 @@ h2 {
 
 }
 
+.btn-signup:hover {
+    background-color: hsl(71, 73%, 64%);
+}
+
 .feature-section {
   background-color: hsl(179, 62%, 46%);
   display: inline-block;
